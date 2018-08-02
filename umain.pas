@@ -119,11 +119,18 @@ procedure TfrmMain.ProcessIcons;
 
   procedure SaveIcon(s: string; w, h: integer; src: TBGRABitmap; c: TBGRAPixel);
   var
-    bmp: TBGRABitmap;
+    bmp, tmp: TBGRABitmap;
+    r: TRect;
   begin
     bmp := TBGRABitmap.Create(w, h, c);
-    bmp.StretchPutImage(DoCalculateDestRect(src.Width, src.Height, w, h),
-      src, dmDrawWithTransparency);
+
+    r := DoCalculateDestRect(src.Width, src.Height, w, h);
+
+    src.ResampleFilter := rfBestQuality;
+    tmp := src.Resample(r.Width, r.Height) as TBGRABitmap;
+    bmp.PutImage(r.Left, r.Top, tmp, dmDrawWithTransparency);
+    tmp.Free;
+
     bmp.SaveToFile(DestDir + s + '.png');
     bmp.Free;
   end;
