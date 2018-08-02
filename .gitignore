@@ -4,6 +4,8 @@
 *.lps
 backup/*
 backup
+bin
+bin/*
 lib
 debug
 *.res

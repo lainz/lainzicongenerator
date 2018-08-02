@@ -4,7 +4,7 @@ object frmMain: TfrmMain
   Top = 119
   Width = 400
   AllowDropFiles = True
-  Caption = 'Lainz Icon Generator v1.0'
+  Caption = 'Lainz Icon Generator v1.0.1'
   ClientHeight = 351
   ClientWidth = 400
   Color = clWhite
