@@ -1,23 +1,22 @@
 object frmMain: TfrmMain
   Left = 422
-  Height = 351
+  Height = 281
   Top = 119
-  Width = 400
+  Width = 320
   AllowDropFiles = True
   Caption = 'Lainz Icon Generator v1.0.1'
-  ClientHeight = 351
-  ClientWidth = 400
+  ClientHeight = 281
+  ClientWidth = 320
   Color = clWhite
-  DesignTimePPI = 120
   OnCreate = FormCreate
   OnDropFiles = FormDropFiles
   Position = poScreenCenter
-  LCLVersion = '1.8.4.0'
+  LCLVersion = '1.9.0.0'
   object BGRAShape1: TBGRAShape
-    Left = 10
-    Height = 256
-    Top = 10
-    Width = 380
+    Left = 8
+    Height = 205
+    Top = 8
+    Width = 304
     Align = alClient
     Angle = 45
     BorderWidth = 2
@@ -29,8 +28,6 @@ object frmMain: TfrmMain
     BorderGradient.EndColorOpacity = 255
     BorderGradient.ColorCorrection = True
     BorderGradient.GradientType = gtLinear
-    BorderGradient.Point1XPercent = 0
-    BorderGradient.Point1YPercent = 0
     BorderGradient.Point2XPercent = 100
     BorderGradient.Point2YPercent = 100
     BorderGradient.Sinus = False
@@ -44,20 +41,17 @@ object frmMain: TfrmMain
     FillGradient.EndColorOpacity = 255
     FillGradient.ColorCorrection = True
     FillGradient.GradientType = gtLinear
-    FillGradient.Point1XPercent = 0
-    FillGradient.Point1YPercent = 0
-    FillGradient.Point2XPercent = 0
     FillGradient.Point2YPercent = 100
     FillGradient.Sinus = False
-    BorderSpacing.Around = 10
+    BorderSpacing.Around = 8
     Caption = 'BGRAShape1'
     RoundRadius = 20
   end
   object BCLabel1: TBCLabel
     Left = 0
-    Height = 266
+    Height = 213
     Top = 0
-    Width = 400
+    Width = 320
     Align = alClient
     Background.Color = clBlack
     Background.ColorOpacity = 255
@@ -68,9 +62,6 @@ object frmMain: TfrmMain
     Background.Gradient1.EndColorOpacity = 255
     Background.Gradient1.ColorCorrection = True
     Background.Gradient1.GradientType = gtLinear
-    Background.Gradient1.Point1XPercent = 0
-    Background.Gradient1.Point1YPercent = 0
-    Background.Gradient1.Point2XPercent = 0
     Background.Gradient1.Point2YPercent = 100
     Background.Gradient1.Sinus = False
     Background.Gradient2.StartColor = clWhite
@@ -80,9 +71,6 @@ object frmMain: TfrmMain
     Background.Gradient2.EndColorOpacity = 255
     Background.Gradient2.ColorCorrection = True
     Background.Gradient2.GradientType = gtLinear
-    Background.Gradient2.Point1XPercent = 0
-    Background.Gradient2.Point1YPercent = 0
-    Background.Gradient2.Point2XPercent = 0
     Background.Gradient2.Point2YPercent = 100
     Background.Gradient2.Sinus = False
     Background.Gradient1EndPercent = 35
@@ -109,42 +97,42 @@ object frmMain: TfrmMain
     FontEx.Style = []
     FontEx.TextAlignment = bcaCenter
     FontEx.WordBreak = False
-    InnerMargin = 0
     Rounding.RoundX = 1
     Rounding.RoundY = 1
     Rounding.RoundOptions = []
   end
   object ProgressBar1: TProgressBar
-    Left = 10
-    Height = 25
-    Top = 276
-    Width = 380
+    Left = 8
+    Height = 20
+    Top = 221
+    Width = 304
     Align = alBottom
-    BorderSpacing.Around = 10
+    BorderSpacing.Around = 8
     ParentFont = False
     TabOrder = 0
   end
   object BCButton1: TButton
-    Left = 10
-    Height = 30
-    Top = 311
-    Width = 380
+    Left = 8
+    Height = 24
+    Top = 249
+    Width = 304
     Align = alBottom
     Anchors = [akRight, akBottom]
-    BorderSpacing.Around = 10
+    BorderSpacing.Around = 8
     Caption = 'Or Select image...'
     Color = clNone
     OnClick = BCButton1Click
+    ParentFont = False
     TabOrder = 1
   end
   object SelectDirectoryDialog1: TSelectDirectoryDialog
     Title = 'Output Directory'
-    left = 290
-    top = 200
+    Left = 232
+    Top = 160
   end
   object OpenDialog1: TOpenDialog
     Filter = 'Images|*.png;*.bmp;*.jpg'
-    left = 290
-    top = 100
+    Left = 232
+    Top = 80
   end
 end

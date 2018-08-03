@@ -1,5 +1,6 @@
 program lainzicongenerator;
 
+{$define UseCThreads}
 {$mode objfpc}{$H+}
 
 uses

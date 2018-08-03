@@ -180,7 +180,7 @@ end;
 procedure TfrmMain.ProcessIconsTerminate(Sender: TObject);
 begin
   ProgressBar1.Visible := False;
-  BCLabel1.Caption := 'Done!' + LineEnding + 'Drop another image here';
+  BCLabel1.Caption := 'Done! Drop another image here';
   BCButton1.Visible := True;
 end;
 
