@@ -154,19 +154,47 @@ begin
     // iOS Icons
     SaveIcon('ios_57x57', 57, 57, bmp, BGRAPixelTransparent);
     SaveIcon('ios_60x60', 60, 60, bmp, BGRAPixelTransparent);
+    SaveIcon('ios_72x72', 72, 72, bmp, BGRAPixelTransparent);
+    SaveIcon('ios_76x76', 76, 76, bmp, BGRAPixelTransparent);
     SaveIcon('ios_87x87', 87, 87, bmp, BGRAPixelTransparent);
     SaveIcon('ios_114x114', 114, 114, bmp, BGRAPixelTransparent);
     SaveIcon('ios_120x120', 120, 120, bmp, BGRAPixelTransparent);
+    SaveIcon('ios_144x144', 144, 144, bmp, BGRAPixelTransparent);
+    SaveIcon('ios_152x152', 152, 152, bmp, BGRAPixelTransparent);
+    SaveIcon('ios_167x167', 167, 167, bmp, BGRAPixelTransparent);
     SaveIcon('ios_180x180', 180, 180, bmp, BGRAPixelTransparent);
     // iOS Launch Image
     SaveIcon('ios_launch_320x480', 320, 480, bmp, BGRABlack);
     SaveIcon('ios_launch_640x960', 640, 960, bmp, BGRABlack);
     SaveIcon('ios_launch_640x1136', 640, 1136, bmp, BGRABlack);
     SaveIcon('ios_launch_750x1334', 750, 1334, bmp, BGRABlack);
+    SaveIcon('ios_launch_768x1004', 768, 1004, bmp, BGRABlack);
+    SaveIcon('ios_launch_768x1024', 768, 1024, bmp, BGRABlack);
+    SaveIcon('ios_launch_1004x768', 1004, 768, bmp, BGRABlack);
+    SaveIcon('ios_launch_1024x748', 1024, 748, bmp, BGRABlack);
+    SaveIcon('ios_launch_1024x768', 1024, 768, bmp, BGRABlack);
+    SaveIcon('ios_launch_1536x2008', 1536, 2008, bmp, BGRABlack);
+    SaveIcon('ios_launch_1536x2048', 1536, 2048, bmp, BGRABlack);
+    SaveIcon('ios_launch_2008x1536', 2008, 1536, bmp, BGRABlack);
+    SaveIcon('ios_launch_2048x1536', 2048, 1536, bmp, BGRABlack);
+    SaveIcon('ios_launch_1496x2048', 1496, 2048, bmp, BGRABlack);
+    SaveIcon('ios_launch_2048x1496', 2048, 1496, bmp, BGRABlack);
+    SaveIcon('ios_launch_1668x2388', 1668, 2388, bmp, BGRABlack);
+    SaveIcon('ios_launch_2388x1668', 2388, 1668, bmp, BGRABlack);
+    SaveIcon('ios_launch_1668x2224', 1668, 2224, bmp, BGRABlack);
+    SaveIcon('ios_launch_2224x1668', 2224, 1668, bmp, BGRABlack);
+    SaveIcon('ios_launch_1334x750', 1334, 750, bmp, BGRABlack);
+    SaveIcon('ios_launch_828x1792', 828, 1792, bmp, BGRABlack);
+    SaveIcon('ios_launch_1792x828', 1792, 828, bmp, BGRABlack);
     SaveIcon('ios_launch_1125x2436', 1125, 2436, bmp, BGRABlack);
+    SaveIcon('ios_launch_1136x640', 1136, 640, bmp, BGRABlack);
     SaveIcon('ios_launch_2436x1125', 2436, 1125, bmp, BGRABlack);
     SaveIcon('ios_launch_1242x2208', 1242, 2208, bmp, BGRABlack);
     SaveIcon('ios_launch_2208x1242', 2208, 1242, bmp, BGRABlack);
+    SaveIcon('ios_launch_1242x2688', 1242, 2688, bmp, BGRABlack);
+    SaveIcon('ios_launch_2688x1242', 2688, 1242, bmp, BGRABlack);
+    SaveIcon('ios_launch_2048x2732', 2048, 2732, bmp, BGRABlack);
+    SaveIcon('ios_launch_2732x2048', 2732, 2048, bmp, BGRABlack);
     // iOS Spotlight Search Icon
     SaveIcon('ios_spotlight_29x29', 29, 29, bmp, BGRABlack);
     SaveIcon('ios_spotlight_40x40', 40, 40, bmp, BGRABlack);

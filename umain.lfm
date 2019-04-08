@@ -11,7 +11,7 @@ object frmMain: TfrmMain
   OnCreate = FormCreate
   OnDropFiles = FormDropFiles
   Position = poScreenCenter
-  LCLVersion = '1.9.0.0'
+  LCLVersion = '2.1.0.0'
   object BGRAShape1: TBGRAShape
     Left = 8
     Height = 205
